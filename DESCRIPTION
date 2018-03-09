@@ -1,0 +1,24 @@
+Package: archs4
+Type: Package
+Title: ARCHS4
+Version: 0.1.0
+Authors@R: c(
+    person("Alexander", "Lachmann", email = "alexander.lachmann@mssm.edu", role = "cre")
+  )
+URL: https://amp.pharm.mssm.edu/archs4
+Description: An implementation of supporting R scripts to download and process data of ARCHS4.
+             The package supports listing of ARCHS4 resources, file download and normalization.
+             It also supports vizualization of samples using tsne dimensionality reduction.
+Year: 2018
+License: Apache Licence 2.0
+Encoding: UTF-8
+LazyData: true
+Imports:
+    rhdf5,
+    tools,
+    preprocessCore,
+    Rtsne
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
